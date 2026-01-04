@@ -1,0 +1,30 @@
+:root{
+--Green-500: hsl(158, 36%, 37%);
+--Green-700: hsl(158, 42%, 18%);
+
+--Black: hsl(212, 21%, 14%);
+--Grey: hsl(228, 12%, 48%);
+--Cream: hsl(30, 38%, 92%);
+--White: hsl(0, 0%, 100%)
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: var(--Cream);
+}
+
+
+main{
+    display: flex;
+    background-color: var(--White);
+    border-radius: 0.5rem;
+}
+
+.product-img img{
+    display: block;
+    border-radius: 0.5rem 0 0 0.5rem;
+}
