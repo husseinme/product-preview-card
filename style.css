@@ -110,7 +110,14 @@ button img{
     margin-right: 10px;
 }
 
-@media (max-width:580px) {
+@media (max-width:680px) {
+    .product-info-text{
+        font-size: 0.9rem;
+    }
+}
+
+
+@media (max-width:450px) {
     main{
         flex-direction: column;
         width: 90%;
@@ -122,5 +129,8 @@ button img{
         object-fit: cover;
         object-position: 50% 30%;
         border-radius: 0.5rem 0.5rem 0 0;
+    }
+    .product-info-text{
+        font-size: 1rem;
     }
 }
